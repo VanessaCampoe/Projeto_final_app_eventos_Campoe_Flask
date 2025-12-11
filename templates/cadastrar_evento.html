@@ -2,5 +2,43 @@
 {% block title %}Eventos{% endblock %}
 {% block content %}
     <div class="container" ></div>
+        <h1>cadastrar eventos</h1>
+        <hr>
+
+        <form action="" method="POST">
+            <div class="row">
+                <!--  nome do evento  -->
+                <div class="col-12 col-md-9 col-lg-4 mb-3">
+                    <label class="form-label">Nome do evento:</label>
+                    <input type="text" class="form-control" name="evento">
+                </div>
+                <!--  nome do evento  -->
+                <div class="col-12 col-md-9 col-lg-4 mb-3">
+                    <label class="form-label">Idade minima do evento:</label>
+                    <input type="text" class="form-control" name="Idade">
+                </div>
+                <!--  data do  evento  -->
+                <div class="col-12 col-md-6 col-lg-3 mb-3"></div>
+                    <label class="form-label">Data do evento</label>
+                    <input type="date" class="form-control" name="data">
+
+                <!-- horA DO EVENTO  -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-3">
+                        <label class="form-label">Hora do evento</label>
+                        <input type="time" class="form-control" name="hora">
+                </div>
+                <!-- horA DO EVENTO  -->
+                    <div class="col-12 col-md-4 col-lg-3 mb-3">
+                        <label class="form-label">Hora do evento</label>
+                        <input type="time" class="form-control" name="hora">
+                    </div>
+            </div>
+
+            
+        </form>
+
+    </div>
+ 
+
 {% endblock %}
 
